@@ -85,7 +85,7 @@ function LinkedList() {
             console.log(`The item ${item} is not in the linked list`);
         }
     }
-    this.showLinkedList = function () {
+    this.printLinkedList = function () {
         let currentNode = root;
         while (currentNode != null) {
             console.log(currentNode.item);
