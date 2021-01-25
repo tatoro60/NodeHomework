@@ -1,15 +1,28 @@
-let salaries = {
-    John: 100,
-    Ann: 160,
-    Pete: "Babken"
-  }
-  let sum = 0;
-for(salary in salaries){
-    if(Number.isInteger(salaries[salary])){
-        salaries[salary]*=2
+function Stack() {
+    let arr = [];
+    this.push = function (item) {
+        arr.push(item);
+    }
+    this.pop = function () {
+        return arr.pop();
+    }
+    this.isEmpty = function () {
+        return arr.length == 0;
     }
 }
-for(salary in salaries){
-    console.log(salary + " : "+ salaries[salary])
+function Queue() {
+    let pushStack = new Stack();
+    let popStack = new Stack();
+    this.enqueue = function (item) {
+        pushStack.push(item);
+    }
+    this.dequeue = function () {
+        if (!popStack.isEmpty()) {
+            return popStack.pop();
+        }
+        while (!pushStack.isEmpty()) {
+            popStack.push(pushStack.pop());
+        }
+        return popStack.isEmpty() ? "Queue is empty" : popStack.pop();
+    }
 }
-
