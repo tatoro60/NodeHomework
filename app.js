@@ -1,28 +1,56 @@
-function Stack() {
-    let arr = [];
-    this.push = function (item) {
-        arr.push(item);
-    }
-    this.pop = function () {
-        return arr.pop();
-    }
-    this.isEmpty = function () {
-        return arr.length == 0;
+function createStack() {
+    return {
+        data: [],
+        push: function (element) {
+            this.data.push(element);
+        },
+        pop: function () {
+            return this.data.pop();
+        },
+        peek: function () {
+            return this.data[data.length - 1];
+        },
+        isEmpty: function () {
+            return this.data.length === 0;
+        },
+        clear: function () {
+            this.data = [];
+        },
+        size: function () {
+            return this.data.length;
+        },
+        getData: function () {
+            return [...this.data];
+        }
     }
 }
-function Queue() {
-    let pushStack = new Stack();
-    let popStack = new Stack();
-    this.enqueue = function (item) {
-        pushStack.push(item);
-    }
-    this.dequeue = function () {
-        if (!popStack.isEmpty()) {
-            return popStack.pop();
+
+function createQ() {
+    return {
+        stack1: createStack(),
+        stack2: createStack(),
+        enqueue: function (element) {
+            this.stack1.push(element);
+        },
+        dequeue: function () {
+            if (this.stack2.isEmpty()) {
+                if (this.stack1.isEmpty()) {
+                    return undefined;
+                }
+                while (!this.stack1.isEmpty()) {
+                    this.stack2.push(this.stack1.pop());
+                }
+            }
+            console.log(this.stack2.pop());
         }
-        while (!pushStack.isEmpty()) {
-            popStack.push(pushStack.pop());
-        }
-        return popStack.isEmpty() ? "Queue is empty" : popStack.pop();
     }
 }
+export const q = createQ;
+export const w = createStack;
+
+let arr = [3, 6, 7, 4];
+let count = 0;
+for (const key in arr) {
+    count++;
+}
+console.log(count);

@@ -2,6 +2,7 @@ function Node(item) {
     this.item = item;
     this.next = null;
 }
+
 function LinkedList() {
     let root = null;
     let lastElement = null;
@@ -25,16 +26,14 @@ function LinkedList() {
     this.addByIndex = function (index, item) {
         if (index > size) {
             console.log("Index is out of range");
-        }
-        else if (index == 0) {
+        } else if (index == 0) {
             this.addFirst(item);
         } else if (index == size) {
             this.addLast(item);
-        }
-        else {
+        } else {
             let current = root;
-            let newNode =new  Node(item);
-            while(index != 1){
+            let newNode = new Node(item);
+            while (index != 1) {
                 current = current.next;
                 index--;
             }
@@ -53,11 +52,9 @@ function LinkedList() {
     this.removeByIndex = function (index) {
         if (index >= size) {
             console.log("Index is out of range");
-        }
-        else if (index == 0) {
+        } else if (index == 0) {
             this.removeFirst();
-        }
-        else {
+        } else {
             let current = root;
             while (index != 1) {
                 current = current.next;
@@ -71,8 +68,7 @@ function LinkedList() {
     this.removeByItem = function (item) {
         if (root.item == item) {
             this.removeFirst();
-        }
-        else {
+        } else {
             let current = root;
             while (current.next != null) {
                 if (item == current.next.item) {
@@ -93,6 +89,8 @@ function LinkedList() {
         }
     }
     Object.defineProperty(this, "size", {
-        get() { return size; }
+        get() {
+            return size;
+        }
     })
 }

@@ -1,14 +1,24 @@
-function myPromisify(callBack) {
-    return (...args) => {
+function promisify(f) {
+    return function (...args) { // return a wrapper-function (*)
         return new Promise((resolve, reject) => {
-            callBack(...args, (err, data) => {
+            function callback(err, result) { // our custom callback for f (**)
                 if (err) {
-                    reject(err)
+                    reject(err);
+                } else {
+                    resolve(result);
                 }
-                else {
-                    resolve(data);
-                }
-            })
-        })
-    }
+            }
+
+            args.push(callback); // append our custom callback to the end of f arguments
+
+            f.call(this, ...args); // call the original function
+        });
+    };
 }
+
+function a(mil) {
+    setTimeout(() => console.log(3), mil)
+}
+promisify(a)(5000, () => {
+
+})

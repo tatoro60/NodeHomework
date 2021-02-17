@@ -10,8 +10,8 @@ function* fibonacci() {
     }
 }
 
-for(const n of fibonacci(10)){
-    if(n>100){
+for (const n of fibonacci(10)) {
+    if (n > 100) {
         break;
     }
     console.log(n);

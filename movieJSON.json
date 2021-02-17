@@ -1,0 +1,287 @@
+[
+    {
+        "name": "Sherlock Holmes",
+        "year": 2009,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Sherlock Holmes:A Game of Shadows",
+        "year": 2011,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "John Carter",
+        "year": 2012,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "The Matrix",
+        "year": 1999,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "The Matrix: Reloaded",
+        "year": 2003,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "The Matrix: Revolutions",
+        "year": 2003,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Forrest Gump",
+        "year": 1994,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Hitch",
+        "year": 2005,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Casino Royale:Agent 007",
+        "year": 2006,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "The Illusionist",
+        "year": 2006,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Defiance",
+        "year": 2008,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "The Godfather",
+        "year": 1972,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "The Game",
+        "year": 1997,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Kill Bill",
+        "year": 2003,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Kill Bill 2",
+        "year": 2004,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Romeo and Juliet",
+        "year": 2013,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "A Hologram for the King",
+        "year": 2016,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "One Flew Over the Cuckoo's",
+        "year": 1975,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Taxi Driver",
+        "year": 1976,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "The Shining",
+        "year": 1980,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Stardust",
+        "year": 2007,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "The Flyboys",
+        "year": 2006,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Eye in the Sky",
+        "year": 2015,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Lost Island",
+        "year": 2011,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Gods of Egypt",
+        "year": 2016,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Joker",
+        "year": 2019,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Dark Knigth",
+        "year": 2008,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "The Dark Knight Rises",
+        "year": 2012,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "The Bucket List",
+        "year": 2007,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Ip Man 4",
+        "year": 2019,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "1917",
+        "year": 2019,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Carriers",
+        "year": 2008,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Argo",
+        "year": 2012,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "The Green Mile",
+        "year": 1999,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Django Unchained",
+        "year": 2012,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Mad Max:Fury Road",
+        "year": 2015,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Snowden",
+        "year": 2016,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "12 Monkeys",
+        "year": 1995,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Contagion",
+        "year": 2011,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "World War Z",
+        "year": 2013,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Mine",
+        "year": 2016,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Parasite",
+        "year": 2019,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Central Intelligence",
+        "year": 2016,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Leon",
+        "year": 1994,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "The Departed",
+        "year": 2006,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "7 Pounds",
+        "year": 2008,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "What Women Want",
+        "year": 2000,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "A beautiful mind",
+        "year": 2001,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "The Silence of the Lambs",
+        "year": 1990,
+        "language": "Անգլերեն"
+    },
+    {
+        "name": "Borat",
+        "year": 2006,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "The Lighthouse",
+        "year": 2019,
+        "language": "Անգլերեն"
+    },
+    {
+        "name": "Wonder Boys",
+        "year": 2000,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "Imagine That",
+        "year": 2009,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "The Social Network",
+        "year": 2010,
+        "language": "Հայերեն"
+    },
+    {
+        "name": "The Terminal",
+        "year": 2004,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Jojo Rabbit",
+        "year": 2019,
+        "language": "Ռուսերեն"
+    },
+    {
+        "name": "Dunkirk",
+        "year": 2017,
+        "language": "Ռուսերեն"
+    }
+]
